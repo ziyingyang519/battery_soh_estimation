@@ -1,0 +1,10 @@
+model,split,samples,mae_percent,rmse_percent
+Train-mean dummy,train,9,5.285571736600533,6.292969489988072
+Train-mean dummy,validation,3,18.257684611687907,18.53407557805728
+Train-mean dummy,test,4,28.558892602475755,28.78703314910767
+IRWST linear regression (interpretability comparator),train,9,1.0930336103137424,1.3909316452613847
+IRWST linear regression (interpretability comparator),validation,3,4.178254083170718,5.867381687769173
+IRWST linear regression (interpretability comparator),test,4,7.543948984121018,9.73208073371901
+IRWST Linear SVR (main baseline),train,9,2.1773369623782077,3.1988060982964375
+IRWST Linear SVR (main baseline),validation,3,2.5792362973510308,2.599825796216107
+IRWST Linear SVR (main baseline),test,4,3.2514349546601142,3.5046471556233616

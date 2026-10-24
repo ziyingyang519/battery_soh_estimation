@@ -1,0 +1,6 @@
+model,feature,meaning,rw3_train_mae_percent,rw3_train_rmse_percent,rw4_external_mae_percent,rw4_external_rmse_percent
+Train-mean dummy,irwst_ohm,No feature.,11.883418892224219,13.50110522305599,9.808322389514162,11.102203792920164
+IRWST linear regression,irwst_ohm,Electrical health feature.,2.1901086801930965,2.811740278154314,1.74414769456526,2.355250667714089
+Elapsed-time linear regression,elapsed_experiment_hours,Elapsed experimental time only.,1.375919026970379,1.5784417916777147,1.7283628120267955,1.7932608402194148
+Reference-order linear regression,previous_reference_order,Idealized scheduled-aging-progress proxy.,1.2596781764888378,1.3842797682499686,1.8090014025549446,1.921092082964019
+IRWST Linear SVR,irwst_ohm,Current IRWST model with C fixed from RW3 validation.,2.1241383811922616,3.002661116194705,1.7999365796044158,2.1597349806617463

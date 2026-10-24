@@ -1,0 +1,6 @@
+model,feature,interpretation,train_mae_percent,train_rmse_percent,validation_mae_percent,validation_rmse_percent,test_mae_percent,test_rmse_percent
+Train-mean dummy,irwst_ohm,No feature; predicts the training SOH mean.,5.525946450910816,6.659532559954625,15.445464966150968,15.610882029765706,25.070643581627476,25.443125370923912
+IRWST linear regression,irwst_ohm,Health-feature baseline using the same direct labels.,1.1079073146529648,1.3695478220325725,5.57302828028452,6.260469352750813,4.68982682851491,7.130075692668988
+Elapsed-time linear regression,elapsed_experiment_hours,"Uses only elapsed experiment time, not electrical response.",1.206903493866431,1.4010272599607325,1.5240790865562737,1.8646364391031365,1.855532769653243,2.1514008671206417
+Reference-order linear regression,previous_reference_order,Optimistic aging-progress proxy available only in this scheduled test protocol.,1.2103214946950491,1.39524870012502,0.9430465069098055,1.0226553043686308,1.6973813279091785,2.3247017376882697
+IRWST Linear SVR,irwst_ohm,Current measured-reference IRWST model.,1.0088737449050562,1.5295167404430203,4.552759116755491,4.977100864228849,3.5124090999405353,5.346644556347029

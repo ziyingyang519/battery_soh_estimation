@@ -1,0 +1,21 @@
+# Python environment / cache
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw NASA data (large, public; see README for download)
+data/raw/
+
+# Drafts, reports and build files not meant for publication
+.ppt_build/
+Claude outputs/
+reports/
+*.docx
+*.pptx
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

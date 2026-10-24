@@ -1,0 +1,7 @@
+scenario,model,mae_percent,rmse_percent
+RW3 chronological test,Time only,4.313573752145733,4.543692983564355
+RW3 chronological test,IRWST only,6.550455422397556,8.78056759985622
+RW3 chronological test,Time + IRWST,5.52929274967345,5.946321894271279
+RW3 train to RW4 external test,Time only,1.7283628120267955,1.7932608402194148
+RW3 train to RW4 external test,IRWST only,1.74414769456526,2.355250667714089
+RW3 train to RW4 external test,Time + IRWST,1.3118929808138247,1.407387342417828
